@@ -9,6 +9,11 @@ namespace Octokit
     public enum MembershipState
     {
         /// <summary>
+        /// The membership state could not be determined
+        /// </summary>
+        NotFound,
+
+        /// <summary>
         /// The membership is pending
         /// </summary>
         [Parameter(Value = "pending")]
